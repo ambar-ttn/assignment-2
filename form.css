@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #666;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.nav h1{
+    margin: 0;      
+    color: #1aa3a3;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.nav-links span{
+    margin-left: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+.page-center{
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 500px;             
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+}
+
+h2{
+    margin: 0;
+    padding: 12px;
+    background-color: #cfd6dc;
+    font-size: 18px;
+}
+
+.frm{
+    padding: 15px;
+}
+
+label{
+    font-size: 13px;
+}
+
+input[type="text"],
+textarea,
+select{
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+select{
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+}
+
+.version{
+    width: 80px;   
+}
+
+.radio-group{
+    margin: 5px 0 12px;
+}
+
+.radio-group label{
+    margin-right: 20px;
+}
+
+input[type="file"]{
+    width: 100%;
+    font-size: 13px;
+}
+
+.card-footer{
+    background-color: #eef2f4;
+    padding: 10px;
+    text-align: right;
+}
+
+button{
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}

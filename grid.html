@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3x3 Grid Layout</title>
+
+  <style>
+    .container {
+      width: 600px;
+      height: 600px;
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+
+      grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h i";
+    }
+
+    .item {
+      background-color: rgb(180, 70, 153);
+      padding: 20px;
+      color: white;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .a { grid-area: a; }
+    .b { grid-area: b; }
+    .c { grid-area: c; }
+    .d { grid-area: d; }
+    .e { grid-area: e; }
+    .f { grid-area: f; }
+    .g { grid-area: g; }
+    .h { grid-area: h; }
+    .i { grid-area: i; }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="item a">A</div>
+    <div class="item b">B</div>
+    <div class="item c">C</div>
+    <div class="item d">D</div>
+    <div class="item e">E</div>
+    <div class="item f">F</div>
+    <div class="item g">G</div>
+    <div class="item h">H</div>
+    <div class="item i">I</div>
+  </div>
+
+</body>
+</html>
