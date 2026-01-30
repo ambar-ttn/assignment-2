@@ -9,7 +9,7 @@ Left section has image, heading, paragraph, “Read more”, and metadata
 Right section has small boxes with image, heading, short text, date, and arrow
 Used Flexbox to arrange left and right sections side by side.
 
-https://raw.githubusercontent.com/ambar-ttn/assignment-2/main/Screenshot%20from%202026-01-30%2011-47-27.png
+![Blog Layout 1](https://raw.githubusercontent.com/ambar-ttn/assignment-2/main/Screenshot%20from%202026-01-30%2011-47-27.png)
 
 
 
@@ -22,7 +22,7 @@ Important fields are marked required
 Form has a footer with send button
 
 
-https://raw.githubusercontent.com/ambar-ttn/assignment-2/main/Screenshot%20from%202026-01-30%2011-48-03.png
+![Blog Layout 2](https://raw.githubusercontent.com/ambar-ttn/assignment-2/main/Screenshot%20from%202026-01-30%2011-48-03.png)
 
 
 3. Grid layout ...
@@ -31,4 +31,4 @@ Used grid-template-columns and grid-template-rows for equal sizing
 Defined layout structure with grid-template-areas
 
 
-https://raw.githubusercontent.com/ambar-ttn/assignment-2/main/Screenshot%20from%202026-01-30%2011-48-32.png
+![Blog Layout 3](https://raw.githubusercontent.com/ambar-ttn/assignment-2/main/Screenshot%20from%202026-01-30%2011-48-32.png)
